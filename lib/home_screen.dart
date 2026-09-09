@@ -225,7 +225,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           const SizedBox(height: 18),
           Text(
-            'Decide el siguiente paso con más claridad.',
+            'Te orientamos sobre qué hacer ahora.',
             style: TextStyle(
               color: Colors.white,
               fontSize: isWide ? 45 : 31,
@@ -237,7 +237,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ConstrainedBox(
             constraints: const BoxConstraints(maxWidth: 600),
             child: Text(
-              'Responde unas preguntas sencillas sobre la persona y lo que le ocurre. Triate te orientará sobre si debes llamar al 112/061, ir al hospital, consultar en un PAC o pedir cita.',
+              'Triate es una herramienta de autotriaje diseñada para ayudarte a evaluar la urgencia de tus síntomas médicos. Responde unas preguntas sencillas y te orientará sobre si debes llamar al 112/061, ir al hospital, consultar en un PAC o pedir cita.',
               style: TextStyle(
                 color: colorWithOpacity(Colors.white, 0.92),
                 fontSize: isWide ? 18 : 16,
@@ -253,15 +253,21 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           const SizedBox(height: 16),
           _buildFeature(
-            icon: Icons.accessibility_new_rounded,
-            title: 'Adaptado a la persona',
-            text: 'Tiene en cuenta edad, sexo y señales de alarma.',
-          ),
-          const SizedBox(height: 16),
-          _buildFeature(
             icon: Icons.lock_outline_rounded,
             title: 'Sin cuenta ni historial',
             text: 'Las respuestas se usan solo durante este cuestionario.',
+          ),
+          const SizedBox(height: 16),
+          _buildFeature(
+            icon: Icons.fact_check_outlined,
+            title: 'Recomendaciones claras según nivel de urgencia',
+            text: 'Te indica si debes llamar, acudir a un hospital, PAC o pedir cita.',
+          ),
+          const SizedBox(height: 16),
+          _buildFeature(
+            icon: Icons.accessibility_new_rounded,
+            title: 'Adaptado a cada persona',
+            text: 'Tiene en cuenta edad, sexo y señales de alarma.',
           ),
         ],
       ),
