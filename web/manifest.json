@@ -1,11 +1,11 @@
 {
-    "name": "Triate | Orientación sanitaria",
+    "name": "Triate | Tu siguiente paso ante un problema de salud",
     "short_name": "Triate",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#5285AB",
     "theme_color": "#5285AB",
-    "description": "Herramienta orientativa para decidir el siguiente paso ante un problema de salud.",
+    "description": "Triate te ayuda a decidir qué hacer ante un problema de salud.",
     "prefer_related_applications": false,
     "icons": [
         {

@@ -160,7 +160,7 @@ class _HomeScreenState extends State<HomeScreen> {
           onPressed: _showModeOptions,
           icon: const Icon(Icons.tune, color: Colors.white, size: 18),
           label: Text(
-            isWide ? _contentMode.label : 'Idioma',
+            isWide ? _contentMode.label : 'Modo',
             style: const TextStyle(
               color: Colors.white,
               fontWeight: FontWeight.bold,
@@ -214,7 +214,7 @@ class _HomeScreenState extends State<HomeScreen> {
               border: Border.all(color: colorWithOpacity(Colors.white, 0.22)),
             ),
             child: const Text(
-              'ORIENTACIÓN SANITARIA DESDE CASA',
+              'TU SIGUIENTE PASO ANTE UN PROBLEMA DE SALUD',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 12,

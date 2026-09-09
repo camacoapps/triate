@@ -14,7 +14,7 @@ class TriateApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Triate | Orientación sanitaria',
+      title: 'Triate | Tu siguiente paso ante un problema de salud',
       debugShowCheckedModeBanner: false,
 
       // 🌍 Idioma fijo: Español (España)
