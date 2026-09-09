@@ -214,7 +214,7 @@ class _HomeScreenState extends State<HomeScreen> {
               border: Border.all(color: colorWithOpacity(Colors.white, 0.22)),
             ),
             child: const Text(
-              'TU SIGUIENTE PASO ANTE UN PROBLEMA DE SALUD',
+              'QUÉ HACER SI TE ENCUENTRAS MAL',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 12,

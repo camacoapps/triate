@@ -1,11 +1,11 @@
 {
-    "name": "Triate | Tu siguiente paso ante un problema de salud",
+    "name": "Triate | Qué hacer si te encuentras mal",
     "short_name": "Triate",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#5285AB",
     "theme_color": "#5285AB",
-    "description": "Triate te ayuda a decidir qué hacer ante un problema de salud.",
+    "description": "Qué hacer si te encuentras mal.",
     "prefer_related_applications": false,
     "icons": [
         {
