@@ -1,0 +1,20 @@
+.DS_Store
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+build/
+coverage/
+
+# IDEs
+.idea/
+.vscode/
+
+# Platform and generated files
+android/.gradle/
+android/local.properties
+ios/Pods/
+ios/.symlinks/
+macos/Pods/
+macos/.symlinks/
